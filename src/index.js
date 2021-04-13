@@ -8,8 +8,6 @@ import './index.css';
 
 const store = createStore(myPreducers);
 
-
-
 ReactDOM.render(
   <Provider store={store}>
     < App />
