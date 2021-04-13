@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './productItem.css'
 
 class ProductItem extends Component {
 
@@ -7,11 +7,10 @@ class ProductItem extends Component {
         const { product } = this.props
 
         return (
-            <div className="col-lg-4 col-md-6 mb-r">
+            <div className="product_item col-lg-4 col-md-6 mb-r">
                 <div className="card text-center card-cascade narrower">
                     <div className="view overlay hm-white-slight z-depth-1">
-                        <img src={product.image}
-                            className="img-fluid" alt={product.name} />
+                        <img src={product.image} alt={product.name} />
                         <a>
                             <div className="mask waves-light waves-effect waves-light"></div>
                         </a>

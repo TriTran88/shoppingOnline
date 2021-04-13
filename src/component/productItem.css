@@ -1,0 +1,6 @@
+.product_item .overlay{
+    min-height: 20em;
+}
+.product_item .card-title{
+    font-size: 20px;
+}
